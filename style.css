@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container > div {
+    background-color: aquamarine;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#taskList {
+    list-style: none;
+    margin: 50px 20px;
+    font-size: 1.5rem;
+    text-align: left;
+    
+}
+
+#taskInput {
+    width: 60%;
+    padding: 5px;
+}
+
+form > button {
+    width: 30%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: green;
+}
+
+button {
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    border: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    border: 2px solid aquamarine;
+    margin-left: -30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+li > button{
+    width: 30px;
+    align-self: center;
+    justify-self: flex-end;
+    border-radius: 5px;
+}
+
+#removeAllTask {
+    width: 50%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
