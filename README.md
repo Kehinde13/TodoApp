@@ -1,5 +1,5 @@
 # TodoApp
 
 #live link
-- https://kehinde13.github.io/TodoApp/
+[TodoApp](https://kehinde13.github.io/TodoApp/)
 
